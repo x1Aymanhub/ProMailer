@@ -56,7 +56,7 @@ email_sender/
 6. Mettez votre CV dans `cv.pdf`.
 7. Exécutez le script :
    ```bash
-   python send_email.py
+   python .\send_email.py
    ```
 
 ## 🚀 Méthode SendGrid (API)
@@ -72,7 +72,7 @@ Ce projet propose aussi une méthode d'envoi d'email via l'API professionnelle S
 1. Configure le fichier `config.env` avec ta clé API SendGrid, l'adresse expéditeur validée, les destinataires et le sujet.
 2. Lance le script :
    ```bash
-   python sendgrid_mail.py
+   python .\sendgrid_mail.py
    ```
 
 Voir la section "Exemple d'exécution" pour un aperçu du résultat.
